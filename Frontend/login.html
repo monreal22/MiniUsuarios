@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- Documento HTML5 -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Codificación UTF-8 -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Hace que la página sea responsive -->
+
+    <title>Login</title>
+    <!-- Título de la pestaña -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Importa Bootstrap para estilos -->
+
+    <style>
+        /* Estilos personalizados */
+        body { background: linear-gradient(135deg, #e6d6ff, #ffffff); height: 100vh; }
+        .card { border-radius: 15px; box-shadow: 0px 4px 15px rgba(0,0,0,0.1); }
+        .btn-primary { background-color: #a66cff; border: none; }
+        .btn-primary:hover { background-color: #8a4de0; }
+        h2 { color: #6a3fb5; text-align: center; }
+    </style>
+</head>
+
+<body>
+<div class="container d-flex justify-content-center align-items-center" style="height:100vh;">
+    <!-- Centra la tarjeta vertical y horizontalmente -->
+
+    <div class="card p-4" style="width: 300px;">
+        <!-- Tarjeta con padding y ancho fijo -->
+
+        <h2>Login</h2>
+        <!-- Título -->
+
+        <input id="email" class="form-control mb-2" placeholder="Email">
+        <input id="password" type="password" class="form-control mb-3" placeholder="Password">
+        <!-- Campos de email y contraseña -->
+
+        <button class="btn btn-primary w-100" onclick="login()">Entrar</button>
+        <!-- Botón que llama a la función login() -->
+
+        <p class="mt-3 text-center">
+            <a href="register.html">Crear cuenta</a>
+            <!-- Enlace a registro -->
+        </p>
+    </div>
+</div>
+
+<script src="app.js"></script>
+<!-- Lógica de login en app.js -->
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "nombre": "liz",
+    "email": "p.salazar_aguirre@hotmail.com",
+    "password": "1234567"
+  },
+  {
+    "id": 2,
+    "nombre": "mafer",
+    "email": "st5089@utr.edu.mx",
+    "password": "12345678"
+  },
+  {
+    "id": 3,
+    "nombre": "Brand",
+    "email": "b@b.com",
+    "password": "12345678"
+  }
+]
